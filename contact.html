@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">AgroPro</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <form action="search.php" method="post">
+            <input class="srch" type="search" name="search" placeholder="Search here...">
+            <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="contact">
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Whether you're interested in our organic farming practices, want to explore business opportunities, 
+            or simply want to say hello, we're here to listen and respond. Feel free to use the provided contact form, 
+            email, or phone number to get in touch with our dedicated team. We look forward to hearing from you and 
+            working together to promote sustainable agriculture and a greener future..</p>
+    </div>
+    <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fa fa-map-marker"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>185/10,<br>Havelock road,<br> Colombo.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>011-5951639<br>070-2375050</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>agropro@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="contactForm">
+            <form action="contact.php" method="post">
+                <h2>Send Message</h2>
+                <div class="inputbox">
+                    <input type="text" name="full_name" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="email" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputbox">
+                    <select name="officer" required="required">
+                        <option value="">Select Officer</option>
+                        <option value="Mr.Kamal Perera">Mr.Kamal Perera</option>
+                        <option value="Mr.Nimal Wijethunga">Mr.Nimal Wijethunga</option>
+                        <option value="Mr.Ruwan Kariyawasam">Mr.Ruwan Kariyawasam</option>
+                        <span>Select Officer</span>
+                    </select>
+                
+                <div class="inputbox">
+                    <textarea name="message" required="required"></textarea>
+                    <span>Type your Message</span>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2023 AgroPro. All Rights Reserved.</p>
+      </footer>
+</body>
+</html>
